@@ -8,3 +8,4 @@ station: station.c
 
 clean:
 	rm -f cbp station *.o logs/*
+	killall cbp

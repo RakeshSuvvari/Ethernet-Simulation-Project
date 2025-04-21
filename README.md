@@ -18,7 +18,7 @@ make
 
 ## How to Run
 ```bash
-mkdir -p logs input
+mkdir -p logs
 ./cbp &
 ./station 1 input/station1.txt &
 ./station 2 input/station2.txt &
